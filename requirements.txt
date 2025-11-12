@@ -1,7 +1,8 @@
+langgraph
 langchain
 langchain-core
 langchain-community
 langchain-openai
-langgraph
+langchain-anthropic
 tavily-python
-pydantic
+langgraph-cli[inmem]
