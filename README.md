@@ -1,4 +1,4 @@
-# Deep Researcher — Multi-Agent Research Workflow (LangGraph + LangChain)
+# Deep Researcher - Multi-Agent Research Workflow (LangGraph + LangChain)
 
 ## Overview
 The **Deep Researcher** project implements a fully modular, asynchronous, multi-agent workflow built using **LangGraph** and **LangChain**.  
