@@ -4,7 +4,6 @@
 The **Deep Researcher** project implements a fully modular, asynchronous, multi-agent workflow built using **LangGraph** and **LangChain**.  
 It automates end-to-end research — from clarifying a user query to generating a polished final report — using structured nodes and configurable models.
 
----
 
 ## Workflow Architecture
 
@@ -16,9 +15,8 @@ It automates end-to-end research — from clarifying a user query to generating 
 **Node:** `clarify_with_user`  
 **Next:** → `write_research_brief`
 
----
 
-### 2️⃣ Write Research Brief
+###  Write Research Brief
 - Converts clarified user queries into a structured **research brief**.  
 - Defines clear scope, objectives, and research constraints.  
 - Sets up a `Supervisor` context to guide the main research phase.
@@ -26,7 +24,6 @@ It automates end-to-end research — from clarifying a user query to generating 
 **Node:** `write_research_brief`  
 **Next:** → `research_supervisor`
 
----
 
 ###  Supervisor Agent
 - Acts as the **lead researcher**, breaking down the brief into subtasks.  
@@ -39,7 +36,6 @@ It automates end-to-end research — from clarifying a user query to generating 
 **Subgraph:** `supervisor_subgraph`  
 **Next:** → `supervisor_tools`
 
----
 
 ### Researcher Subgraph
 Each **Researcher** agent:
@@ -55,7 +51,6 @@ Each **Researcher** agent:
 
 **Output:** `compressed_research` + raw notes
 
----
 
 ### Final Report Generation
 - Synthesizes all notes and compressed research into a polished **final report**.  
@@ -65,7 +60,6 @@ Each **Researcher** agent:
 **Node:** `final_report_generation`  
 **Next:** → `END`
 
----
 
 ## Credits
 - This implementation was inspired and learned from the official [LangGraph Deep Research repository][https://github.com/langchain-ai/open_deep_research]
