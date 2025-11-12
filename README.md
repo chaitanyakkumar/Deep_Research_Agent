@@ -62,6 +62,6 @@ Each **Researcher** agent:
 
 
 ## Credits
-- This implementation was inspired and learned from the official [LangGraph Deep Research repository][https://github.com/langchain-ai/open_deep_research]
+- This implementation was inspired and learned from the official [LangGraph Deep Research repository](https://github.com/langchain-ai/open_deep_research)
 - I plan to extend the project by enabling scientific resaerch, acquiring knowledge from pdfs, adding tools with MCP and adding memory based on requirements
-- Huge thanks to the LangGraph and LangChain teams for their incredible open-source work that made this project possible.
+- Huge thanks to the LangGraph and LangChain teams for their incredible open-source work that helped me learn langgraph and build projects
